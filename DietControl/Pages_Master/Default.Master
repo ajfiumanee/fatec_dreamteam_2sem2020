@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="DietControl.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>home</div>
+            <div>
+                Cadastro
+                <div>
+                    <small>Usuarios</small>
+                    <small>Alimentos</small>
+                </div>
+            </div>
+            <div>
+                Dietas
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder_Master" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
